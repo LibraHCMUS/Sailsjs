@@ -2,25 +2,25 @@
 
 Kute shop - Đây là trang web bán hàng.
 
-Danh sách sinh viên: 1212006 Nguyễn Đức Anh - 1212437 Phan Ngọc Triều
+Danh sách sinh viên: 1212006 Nguyễn Đức Anh - 1212437 Phan Ngọc Triều - 1212029 Đặng Thị Linh Chi - 1212367 Nguyễn Thái Thu Thảo
 
 URL: 
+## Công việc cần làm
 
-## Chức năng
+Các chuẩn đầu ra cần thực hiện:
+* [x] Git theo Gitflow Workflow.
+* [x] Tìm hiểu tạo project theo framework sails.
+* [x] Sử dụng theo mô hình MVC.
+* [x] Tạo các trang web có sử dụng template css kết nối được với sails.
+* [x] Kết hợp sails với MongoDB.
 
 Danh sách chức năng :
 
 * [ ] Đăng ký tài khoản bằng email, password, và tên.
 * [ ] Đăng nhập bằng email và password.
-* [ ] Hiển thị sản phẩm
+* [ ] Hiển thị sản phẩm.
 * [ ] Tìm kiếm sảm phẩm.
 * [ ] Đặt hàng.
-
-Các chuẩn đầu ra cần thực hiện:
-* [ ] Git với Centralize Workflow
-* [ ] Git theo Feature Branch Workflow
-* [ ] Git theo Feature Branch Workflow có Pull Request
-* [x] Git theo Gitflow Workflow
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
