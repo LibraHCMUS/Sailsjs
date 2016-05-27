@@ -48,6 +48,10 @@ module.exports.routes = {
     view: 'order'
   }
 
+  /*'GET /signup':{view: 'signup'},
+
+  'POST /signup': 'UserController.signup',
+
   /***************************************************************************
   *                                                                          *
   * Custom routes here...                                                    *
