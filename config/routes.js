@@ -46,7 +46,15 @@ module.exports.routes = {
   
   '/order':{
     view: 'order'
-  }
+  },
+
+  '/detail2':{
+    view: 'detail2'
+  },
+
+  '/detail':{
+    view: 'detail'
+  },
 
   /*'GET /signup':{view: 'signup'},
 
