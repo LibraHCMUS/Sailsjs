@@ -498,7 +498,7 @@
                                         <p class="product-name">
                                             <a href="#">Woman Within Plus Size Flared</a>
                                         </p>
-                                        <p class="product-price">$38,95</p>
+                                        <p class="product-price"><%= product.price %></p>
                                         <p class="product-star">
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
@@ -733,37 +733,37 @@
                                 <!-- product-imge-->
                                 <div class="product-image">
                                     <div class="product-full">
-                                        <img id="product-zoom" src='assets/data/product-s3-420x512.jpg' data-zoom-image="assets/data/product-s3-850x1036.jpg"/>
+                                        <img id="product-zoom" src= <%= product.image %>>
                                     </div>
                                     <div class="product-img-thumb" id="gallery_01">
                                         <ul class="owl-carousel" data-items="3" data-nav="true" data-dots="false" data-margin="20" data-loop="true">
                                             <li>
-                                                <a href="#" data-image="assets/data/product-s3-420x512.jpg" data-zoom-image="assets/data/product-s3-850x1036.jpg">
+                                                <a href="#"  data-zoom-image="assets/data/product-s3-850x1036.jpg" data-image=<%= product.image %>>
                                                     <img id="product-zoom"  src="assets/data/product-s3-100x122.jpg" /> 
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="#" data-image="assets/data/product-s2-420x512.jpg" data-zoom-image="assets/data/product-s2-850x1036.jpg">
+                                                <a href="#"  data-zoom-image="assets/data/product-s4-850x1036.jpg" data-image=<%= product.image %>>
                                                     <img id="product-zoom"  src="assets/data/product-s2-100x122.jpg" /> 
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="#" data-image="assets/data/product-420x512.jpg" data-zoom-image="assets/data/product-850x1036.jpg">
+                                                <a href="#" data-zoom-image="assets/data/product-s4-850x1036.jpg" data-image=<%= product.image %>>
                                                     <img id="product-zoom"  src="assets/data/product-100x122.jpg" /> 
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="#" data-image="assets/data/product-s4-420x512.jpg" data-zoom-image="assets/data/product-s4-850x1036.jpg">
+                                                <a href="#" data-zoom-image="assets/data/product-s4-850x1036.jpg" data-image=<%= product.image %>>
                                                     <img id="product-zoom"  src="assets/data/product-s4-100x122.jpg" /> 
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="#" data-image="assets/data/product-s5-420x512.jpg" data-zoom-image="assets/data/product-s5-850x1036.jpg">
+                                                <a href="#" data-zoom-image="assets/data/product-s4-850x1036.jpg" data-image= <%= product.image %>>
                                                     <img id="product-zoom"  src="assets/data/product-s5-100x122.jpg" /> 
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="#" data-image="assets/data/product-s6-420x512.jpg" data-zoom-image="assets/data/product-s6-850x1036.jpg">
+                                                <a href="#" data-zoom-image="assets/data/product-s4-850x1036.jpg" data-image= <%= product.image %>>
                                                     <img id="product-zoom"  src="assets/data/product-s6-100x122.jpg" /> 
                                                 </a>
                                             </li>
@@ -773,7 +773,7 @@
                                 <!-- product-imge-->
                             </div>
                             <div class="pb-right-column col-xs-12 col-sm-6">
-                                <h1 class="product-name">Maecenas consequat mauris</h1>
+                                <h1 class="product-name"><%= product.name %></h1>
                                 <div class="product-comments">
                                     <div class="product-star">
                                         <i class="fa fa-star"></i>
@@ -788,8 +788,8 @@
                                     </div>
                                 </div>
                                 <div class="product-price-group">
-                                    <span class="price">$38.95</span>
-                                    <span class="old-price">$52.00</span>
+                                    <span class="price"><%= product.name %></span>
+                                    <span class="old-price"><%= product.name %></span>
                                     <span class="discount">-30%</span>
                                 </div>
                                 <div class="info-orther">
