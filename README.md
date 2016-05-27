@@ -12,13 +12,13 @@ Các chuẩn đầu ra cần thực hiện:
 * [x] Tìm hiểu tạo project theo framework sails.
 * [x] Sử dụng theo mô hình MVC.
 * [x] Tạo các trang web có sử dụng template css kết nối được với sails.
-* [x] Kết hợp sails với MongoDB.
+* [x] Kết hợp sails với MySQL.
 
 Danh sách chức năng :
 
 * [ ] Đăng ký tài khoản bằng email, password, và tên.
 * [ ] Đăng nhập bằng email và password.
-* [ ] Hiển thị sản phẩm.
+* [x] Hiển thị sản phẩm.
 * [ ] Tìm kiếm sảm phẩm.
 * [ ] Đặt hàng.
 ## Video Walkthrough
