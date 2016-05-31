@@ -65,6 +65,7 @@ module.exports.connections = {
     password: 'trieu34', //optional
     database: 'mysqlsailsjs' //optional
   },
+  //
   
   /***************************************************************************
   *                                                                          *
