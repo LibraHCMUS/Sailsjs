@@ -28,9 +28,9 @@ module.exports.connections = {
   * Installed by default.                                                    *
   *                                                                          *
   ***************************************************************************/
-  localDiskDb: {
-    adapter: 'sails-disk'
-  },
+  // localDiskDb: {
+  //   adapter: 'sails-disk'
+  // },
 
   /***************************************************************************
   *                                                                          *
@@ -40,14 +40,14 @@ module.exports.connections = {
   * Run: npm install sails-mysql                                             *
   *                                                                          *
   ***************************************************************************/
-  mysqlServer: {
-    adapter: 'sails-mysql',
-    host: 'localhost', //optional
-    port:8889,
-    user: 'sailsmysql', //optional
-    password: 'Thisismypassword', //optional
-    database: 'sailsmysql'
-  },
+  // mysqlServer: {
+  //   adapter: 'sails-mysql',
+  //   host: 'sql6.freemysqlhosting.net', //optional,
+  //   port : 3306,
+  //   user: '	sql6121553', //optional
+  //   password: 'mqKkuhUJy1', //optional
+  //   database: 'sql6121553'
+  // },
 
   /***************************************************************************
   *                                                                          *
@@ -57,15 +57,15 @@ module.exports.connections = {
   * Run: npm install sails-mongo                                             *
   *                                                                          *
   ***************************************************************************/
-  // someMongodbServer: {
-  //   adapter: 'sails-mongo',
-  //   host: 'localhost',
-  //   port: 27017,
-  //   user: 'username', //optional
-  //   password: 'password', //optional
-  //   database: 'your_mongo_db_name_here' //optional
-  // },
-
+  someMongodbServer: {
+    adapter: 'sails-mongo',
+    host: 'ds019143.mlab.com',
+    port: 19143,
+    user: 'mysqlsailsjs', //optional
+    password: 'trieu34', //optional
+    database: 'mysqlsailsjs' //optional
+  },
+  
   /***************************************************************************
   *                                                                          *
   * PostgreSQL is another officially supported relational database.          *
