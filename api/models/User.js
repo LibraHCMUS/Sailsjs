@@ -10,15 +10,20 @@ module.exports = {
   attributes: {
     name:{
       type:'string',
-      required:true,
+      required:true
     },
     email:{
       type:'string',
       email:true,
+      required: true,
+      unique: true
     },
     state:{
-      type:'string',
+      type:'string'
       
+    },
+    encryptedPassword: {
+      type:'string'
     }
   }
 };

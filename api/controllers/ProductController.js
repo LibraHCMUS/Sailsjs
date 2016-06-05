@@ -19,6 +19,15 @@ module.exports = {
                 product: product
             });
         });
+    },
+
+    index: function(req, res, next) {
+        Product.find(function foundProduct(err, product){
+            if(err) return next(err);
+            res.view({
+                product: product
+            });
+        });
     }
 };
 

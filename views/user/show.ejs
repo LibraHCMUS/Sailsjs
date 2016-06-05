@@ -1,4 +1,8 @@
-<h1><%= user.name %></h1>
-<hr>
-<h3>Email: <%= user.email %> </h3>
-<h4><%= user.state %></h4>
+
+
+<div class="container">
+	<h1><%= user.name %></h1>
+	<h3>Email: <%= user.email %> </h3>
+	<h4><%= user.state %></h4>
+	<a class="btn btn-medium btn-primary" href="/user/edit/<%= user.id %>">Edit</a>
+</div>
