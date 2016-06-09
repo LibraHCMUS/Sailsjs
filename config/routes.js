@@ -52,10 +52,6 @@ module.exports.routes = {
     view: 'detail2'
   },
 
-  '/detail':{
-    view: 'detail'
-  },
-
   /*'GET /signup':{view: 'signup'},
 
   'POST /signup': 'UserController.signup',
