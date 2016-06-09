@@ -27,9 +27,12 @@ module.exports = {
             });
         });
     },
-    showAll: function(req, res, next) {
-        res.view({
-            user: User
+    index: function(req, res, next) {
+        User.find(function foundUser(err, user){
+            if(err) return next(err);
+            res.view({
+                user: user
+            });
         });
     }
 };
