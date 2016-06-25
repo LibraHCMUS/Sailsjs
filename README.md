@@ -13,14 +13,23 @@ Các chuẩn đầu ra cần thực hiện:
 * [x] Sử dụng theo mô hình MVC.
 * [x] Tạo các trang web có sử dụng template css kết nối được với sails.
 * [x] Kết hợp sails với MySQL.
+* [] Back_end
+* [] Front_end
 
-Danh sách chức năng :
+Danh sách chức năng Front_end:
 
 * [ ] Đăng ký tài khoản bằng email, password, và tên.
 * [ ] Đăng nhập bằng email và password.
 * [x] Hiển thị sản phẩm.
 * [ ] Tìm kiếm sảm phẩm.
 * [ ] Đặt hàng.
+
+Danh sách chức năng Back_end:
+
+* [ ] Thêm xóa sửa user.
+* [ ] Thêm xóa sửa sản phẩm.
+* [ ] Tìm kiếm sản phẩm, user
+* [ ] Thống kê sản phẩm bán chạy.
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:

@@ -441,7 +441,7 @@
             <span class="navigation-pipe">&nbsp;</span>
             <a href="#" title="Return to Home">Dresses</a>
             <span class="navigation-pipe">&nbsp;</span>
-            <span class="navigation_page">Maecenas consequat mauris</span>
+            <span class="navigation_page"><%= product.name %></span>
         </div>
         <!-- ./breadcrumb -->
         <!-- row -->
@@ -733,38 +733,38 @@
                                 <!-- product-imge-->
                                 <div class="product-image">
                                     <div class="product-full">
-                                        <img id="product-zoom" src= <%= product.image %>>
+                                        <img id="product-zoom" src= "../../pictures/woman/jacket/<%= product.image %>">
                                     </div>
                                     <div class="product-img-thumb" id="gallery_01">
                                         <ul class="owl-carousel" data-items="3" data-nav="true" data-dots="false" data-margin="20" data-loop="true">
                                             <li>
-                                                <a href="#"  data-zoom-image="assets/data/product-s3-850x1036.jpg" data-image=<%= product.image %>>
-                                                    <img id="product-zoom"  src="assets/data/product-s3-100x122.jpg" /> 
+                                                <a href="#"  data-zoom-image="../../pictures/woman/jacket/<%= product.image %>" data-image=<%= product.image %>>
+                                                    <img id="product-zoom"  src="../../pictures/woman/jacket/<%= product.image %>" /> 
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="#"  data-zoom-image="assets/data/product-s4-850x1036.jpg" data-image=<%= product.image %>>
-                                                    <img id="product-zoom"  src="assets/data/product-s2-100x122.jpg" /> 
+                                                <a href="#"  data-zoom-image="../../pictures/woman/jacket/<%= product.image %>" data-image=<%= product.image %>>
+                                                    <img id="product-zoom"  src="../../pictures/woman/jacket/<%= product.image %>" /> 
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="#" data-zoom-image="assets/data/product-s4-850x1036.jpg" data-image=<%= product.image %>>
-                                                    <img id="product-zoom"  src="assets/data/product-100x122.jpg" /> 
+                                                <a href="#" data-zoom-image="../../pictures/woman/jacket/<%= product.image %>" data-image=<%= product.image %>>
+                                                    <img id="product-zoom"  src="../../pictures/woman/jacket/<%= product.image %>" /> 
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="#" data-zoom-image="assets/data/product-s4-850x1036.jpg" data-image=<%= product.image %>>
-                                                    <img id="product-zoom"  src="assets/data/product-s4-100x122.jpg" /> 
+                                                <a href="#" data-zoom-image="../../pictures/woman/jacket/<%= product.image %>" data-image=<%= product.image %>>
+                                                    <img id="product-zoom"  src="../../pictures/woman/jacket/<%= product.image %>" /> 
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="#" data-zoom-image="assets/data/product-s4-850x1036.jpg" data-image= <%= product.image %>>
-                                                    <img id="product-zoom"  src="assets/data/product-s5-100x122.jpg" /> 
+                                                <a href="#" data-zoom-image="../../pictures/woman/jacket/<%= product.image %>" data-image= <%= product.image %>>
+                                                    <img id="product-zoom"  src="../../pictures/woman/jacket/<%= product.image %>" /> 
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="#" data-zoom-image="assets/data/product-s4-850x1036.jpg" data-image= <%= product.image %>>
-                                                    <img id="product-zoom"  src="assets/data/product-s6-100x122.jpg" /> 
+                                                <a href="#" data-zoom-image="../../pictures/woman/jacket/<%= product.image %>" data-image= <%= product.image %>>
+                                                    <img id="product-zoom"  src="../../pictures/woman/jacket/<%= product.image %>" /> 
                                                 </a>
                                             </li>
                                         </ul>
@@ -788,12 +788,12 @@
                                     </div>
                                 </div>
                                 <div class="product-price-group">
-                                    <span class="price"><%= product.name %></span>
-                                    <span class="old-price"><%= product.name %></span>
+                                    <span class="price"><%= product.price %></span>
+                                    <span class="old-price"><%= product.price %></span>
                                     <span class="discount">-30%</span>
                                 </div>
                                 <div class="info-orther">
-                                    <p>Item Code: #453217907</p>
+                                    <p>Item Code: <%= product.id %></p>
                                     <p>Availability: <span class="in-stock">In stock</span></p>
                                     <p>Condition: New</p>
                                 </div>

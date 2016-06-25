@@ -1,0 +1,29 @@
+<div id="page-wrapper">
+	<form action="/product/create" method="POST" id="sigh-up-form" class="form-signin">
+		<h2 class="form-signin-heading">Create product</h2>
+
+		<% if(flash && flash.err) { %>
+			<ul class="alert alert-success">
+		<% Object.keys(flash.err).forEach(function(error) { %>
+			<li><%- JSON.stringify(flash.err[error]) %></li>
+		<% }) %>
+		</ul>
+		<% } %>
+
+		<div class="control-group">
+			<input type="text" class="form-control" placeholder="product name" name="name">
+		</div>
+
+		<div class="control-group">
+			<input type="text" class="form-control" placeholder="price" name="price">
+		</div>
+
+		<div class="control-group">
+			<input type="text" class="form-control" placeholder="image" name="image">
+			<br />
+		</div>
+
+		<input type="submit" class="btn btn-lg btn-primary btn-block" value="Create Product"/>
+		<input type="hidden" name="_csrf" value="<% _csrf %>"/>
+	</form>
+</div>
