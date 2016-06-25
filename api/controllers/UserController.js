@@ -9,7 +9,9 @@ module.exports = {
 
     'new': function (req, res) {
         res.locals.flash = _.clone(req.session.flash)
-        res.view();
+        res.view({
+                layout: '_layoutAdmin'
+            });
         req.session.flash = {};
     },
 
@@ -32,7 +34,8 @@ module.exports = {
             if(err) return next(err);
             if(!user) return next();
             res.view({
-                user: user
+                user: user,
+                layout: '_layoutAdmin'
             });
         });
     },
@@ -40,7 +43,8 @@ module.exports = {
         User.find(function foundUser(err, user){
             if(err) return next(err);
             res.view({
-                user: user
+                user: user,
+                layout: '_layoutAdmin'
             });
         });
     },
@@ -49,7 +53,8 @@ module.exports = {
             if(err) return next(err);
             if(!user) return next('User doesn\'t exist.');
             res.view({
-                user: user
+                user: user,
+                layout: '_layoutAdmin'
             });
         });
     },

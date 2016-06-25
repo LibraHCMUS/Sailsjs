@@ -9,7 +9,9 @@ module.exports = {
 
     'new': function (req, res) {
         res.locals.flash = _.clone(req.session.flash)
-        res.view();
+        res.view({
+                layout: '_layoutAdmin'
+            });
         req.session.flash = {};
     },
 
@@ -40,7 +42,8 @@ module.exports = {
         Product.find(function foundProduct(err, product){
             if(err) return next(err);
             res.view({
-                product: product
+                product: product,
+                layout: '_layoutAdmin'
             });
         });
     },
@@ -49,7 +52,8 @@ module.exports = {
             if(err) return next(err);
             if(!product) return next('product doesn\'t exist.');
             res.view({
-                product: product
+                product: product,
+                layout: '_layoutAdmin'
             });
         });
     },
