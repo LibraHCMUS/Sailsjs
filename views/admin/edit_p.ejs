@@ -1,0 +1,10 @@
+<div id="page-wrapper">
+	<form action="/admin/update_p/<%= product.id %>" method="POST" class="form-signin">
+		<h2>Updating product</h2>
+		<input value="<%= product.name %>" name="name" type="text" class="form-control"/>
+		<input value="<%= product.price %>" name="price" type="text" class="form-control"/>
+		<input value="<%= product.image %>" name="image" type="text" class="form-control"/>
+		<input value="Proceed" type="submit" class="btn btn-lg btn-primary btn-block"/>
+		<input name="_csrf" type="hidden" class="<%= _csrf %>"/>
+	</form>
+</div>

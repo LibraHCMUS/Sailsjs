@@ -1,0 +1,34 @@
+<div id="page-wrapper">
+	<h3>Users</h3>
+	<table class='table'>
+		<tr>
+			<th>ID</th>
+			<th>Name</th>
+			<th>email</th>
+			<th>state</th>
+			<th>password</th>
+			<th></th>
+			<th></th>
+		</tr>
+
+		<% _.each(user, function(user) { %>
+		<tr data-id="<%= user.id %>" data-model="user">
+			<td> <%= user.id %> </td>
+			<td> <%= user.name %> </td>
+			<td> <%= user.email %> </td>
+			<td> <%= user.state %> </td>
+			<td> <%= user.password %></td>
+			<td><a href="/admin/show_u/<%= user.id %>" class="btn btn-sm btn-primary">Show</a></td>
+			<td><a href="/admin/edit_u/<%= user.id %>" class="btn btn-sm btn-warning">Edit</a></td>
+
+			<td><form action="/admin/destroy_u/<%= user.id %>" method="POST">
+				<input type="hidden" name="_method" value="delete"></input>
+				<input type="submit" class="btn btn-sm btn-danger" value="Delete"></input>
+				<input type="hidden" name="_csrf" value="<%= _csrf %>"></input>
+			</form></td>
+			
+		</tr>
+		<% } ) %>
+	</table>
+	<a href="/admin/new_u" class="btn btn-sm btn-warning">Create</a>
+</div>
