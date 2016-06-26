@@ -56,7 +56,8 @@ module.exports = {
             if(err) return next(err);
             if(!product) return next();
             res.view({
-                product: product
+                product: product,
+                layout: '_layoutAdmin'
             });
         });
     },

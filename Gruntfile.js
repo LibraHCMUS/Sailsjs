@@ -14,6 +14,19 @@
 
 module.exports = function(grunt) {
 
+//	var cssFilesToInject = [
+//		'linker/**/*.css'
+//	]
+
+//	var jsFilesToInject = [
+//		'linker/js/socket.io.js',
+//		'linker/js/sails.io.js',
+//		'linker/js/app.io.js',
+//		'linker/js/jquery.js',
+//		'linker/js/jquery.validate.min.js',
+//		'linker/**/*.js'
+//	]
+//
 
 	// Load the include-all library in order to require all of our grunt
 	// configurations and task registrations dynamically.
