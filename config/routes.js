@@ -32,7 +32,7 @@ module.exports.routes = {
   *                                                                          *
   ***************************************************************************/
 
-  '/#':{
+  '/': {
     view: 'homepage'
   },
   
@@ -50,14 +50,6 @@ module.exports.routes = {
 
   '/detail2':{
     view: 'detail2'
-  },
-
-  '/men':{
-    view: 'men'
-  },
-
-  '/woman':{
-    view: 'woman'
   },
 
   /*'GET /signup':{view: 'signup'},
