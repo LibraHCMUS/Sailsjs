@@ -2,8 +2,32 @@
 <html>
   <head>
     <title><%=typeof title == 'undefined' ? 'Kute shop' : title%></title>
+
     <!-- Viewport mobile tag for sensible mobile support -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+    <!--
+        Stylesheets and Preprocessors
+        ==============================
+
+        You can always bring in CSS files manually with `<link>` tags, or asynchronously
+        using a solution like AMD (RequireJS).  Or, if you like, you can take advantage
+        of Sails' conventional asset pipeline (boilerplate Gruntfile).
+
+        By default, stylesheets from your `assets/styles` folder are included
+        here automatically (between STYLES and STYLES END). Both CSS (.css) and LESS (.less)
+        are supported. In production, your styles will be minified and concatenated into
+        a single file.
+
+        To customize any part of the built-in behavior, just edit `tasks/pipeline.js`.
+        For example, here are a few things you could do:
+
+            + Change the order of your CSS files
+            + Import stylesheets from other directories
+            + Use a different or additional preprocessor, like SASS, SCSS or Stylus
+    -->
+
     <!--STYLES-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -21,15 +45,11 @@
   </head>
 
   <body>
-
   <div id="header" class="header">
-    <!--<audio autoplay>
-      <source src="audio/faded.mp3" type="audio/mpeg">
-    </audio>-->
     <div class="top-header">
         <div class="container">
             <div class="nav-top-links">
-                <a class="first-item" href="#"><img alt="phone" src="/images/phone.png" />00-62-658-658</a>
+                <a class="first-item" href="#"><img alt="phone" src="/images/phone.png" />01674674104</a>
                 <a href="#"><img alt="email" src="/images/email.png" />Contact us today!</a>
             </div>
             <div class="currency ">
@@ -38,18 +58,19 @@
                       <ul class="dropdown-menu" role="menu">
                         <li><a href="#">Dollar</a></li>
                         <li><a href="#">Euro</a></li>
+                        <li><a href="#">VND</a></li>
                       </ul>
                 </div>
             </div>
             <div class="language ">
                 <div class="dropdown">
                       <a class="current-open" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">
-                      <img alt="email" src="/images/fr.jpg" />French
+                      <img alt="email" src="/images/fr.jpg" />English
                       
                       </a>
                       <ul class="dropdown-menu" role="menu">
                         <li><a href="#"><img alt="email" src="/images/en.jpg" />English</a></li>
-                        <li><a href="#"><img alt="email" src="/images/fr.jpg" />French</a></li>
+                        <li><a href="#"><img alt="email" src="/images/fr.jpg" />VietNamese</a></li>
                     </ul>
                 </div>
             </div>
@@ -64,8 +85,7 @@
                     <a class="current-open" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#"><span>My Account</span></a>
                     <ul class="dropdown-menu mega_dropdown" role="menu">
                         <li><a href="login">Login</a></li>
-                        <li><a href="#">Compare</a></li>
-                        <li><a href="#">Wishlists</a></li>
+                        <li><a href="login">Sign up</a></li>
                     </ul>
                 </div>
             </div>
@@ -76,15 +96,16 @@
     <div class="container main-header">
         <div class="row">
             <div class="col-xs-12 col-sm-3 logo">
-                <a href="homepage"><img alt="Kute shop - themelock.com" src="/images/logo.png" /></a>
+                <a href=""><img alt="Kute shop - themelock.com" src="/images/logo.png" /></a>
             </div>
             <div class="col-xs-7 col-sm-7 header-search-box">
                 <form class="form-inline">
                       <div class="form-group form-category">
                         <select class="select-category">
                             <option value="2">All Categories</option>
-                            <option value="1">Men</option>
-                            <option value="2">Women</option>
+                            <option value="1">Men's</option>
+                            <option value="2">Women's</option>
+                            <option value="3">Kids</option>
                         </select>
                       </div>
                       <div class="form-group input-serach">
@@ -96,19 +117,19 @@
             <div id="cart-block" class="col-xs-5 col-sm-2 shopping-cart-box">
                 <a class="cart-link" href="order">
                     <span class="title">Shopping cart</span>
-                    <span class="total">2 items - 122.38 €</span>
-                    <span class="notify notify-left">2</span>
+                    <span class="total">1 items - 61.19 €</span>
+                    <span class="notify notify-left">1</span>
                 </a>
                 <div class="cart-block">
                     <div class="cart-block-content">
-                        <h5 class="cart-title">2 Items in my cart</h5>
+                        <h5 class="cart-title">1 Items in my cart</h5>
                         <div class="cart-block-list">
                             <ul>
                                 <li class="product-info">
                                     <div class="p-left">
                                         <a href="#" class="remove_link"></a>
                                         <a href="#">
-                                        <img class="img-responsive" src="/data/product-100x122.jpg" alt="p10">
+                                        <img class="img-responsive" src="/data/scaves_3.jpg" alt="p10">
                                         </a>
                                     </div>
                                     <div class="p-right">
@@ -117,24 +138,12 @@
                                         <p>Qty: 1</p>
                                     </div>
                                 </li>
-                                <li class="product-info">
-                                    <div class="p-left">
-                                        <a href="#" class="remove_link"></a>
-                                        <a href="#">
-                                        <img class="img-responsive" src="/data/product-s5-100x122.jpg" alt="p10">
-                                        </a>
-                                    </div>
-                                    <div class="p-right">
-                                        <p class="p-name">Donec Ac Tempus</p>
-                                        <p class="p-rice">61,19 €</p>
-                                        <p>Qty: 1</p>
-                                    </div>
-                                </li>
+                               
                             </ul>
                         </div>
                         <div class="toal-cart">
                             <span>Total</span>
-                            <span class="toal-price pull-right">122.38 €</span>
+                            <span class="toal-price pull-right">61.19 €</span>
                         </div>
                         <div class="cart-buttons">
                             <a href="order.html" class="btn-check-out">Checkout</a>
@@ -160,11 +169,11 @@
                         <a href="#"><img src="/data/introduce-logo.png" alt="" /></a>
                         <div id="address-list">
                             <div class="tit-name">Address:</div>
-                            <div class="tit-contain">Example Street 68, Mahattan, New York, USA.</div>
+                            <div class="tit-contain">227 Nguyen Van Cu, P4, Q5 TPHCM.</div>
                             <div class="tit-name">Phone:</div>
-                            <div class="tit-contain">+00 123 456 789</div>
+                            <div class="tit-contain">01674674104</div>
                             <div class="tit-name">Email:</div>
-                            <div class="tit-contain">support@business.com</div>
+                            <div class="tit-contain">linhchi8094@gmail.com</div>
                         </div>
                     </div>
                 </div>
@@ -174,9 +183,6 @@
                             <div class="introduce-title">Company</div>
                             <ul id="introduce-company" class="introduce-list">
                                 <li><a href="#">About Us</a></li>
-                                <li><a href="#">Testimonials</a></li>
-                                <li><a href="#">Affiliate Program</a></li>
-                                <li><a href="#">Terms & Conditions</a></li>
                                 <li><a href="#">Contact Us</a></li>
                             </ul>
                         </div>
@@ -184,19 +190,15 @@
                             <div class="introduce-title">My Account</div>
                             <ul id="introduce-Account" class="introduce-list">
                                 <li><a href="#">My Order</a></li>
-                                <li><a href="#">My Wishlist</a></li>
                                 <li><a href="#">My Credit Slip</a></li>
                                 <li><a href="#">My Addresses</a></li>
-                                <li><a href="#">My Personal In</a></li>
+                               
                             </ul>
                         </div>
                         <div class="col-sm-4">
                             <div class="introduce-title">Support</div>
                             <ul id="introduce-support" class="introduce-list">
                                 <li><a href="#">About Us</a></li>
-                                <li><a href="#">Testimonials</a></li>
-                                <li><a href="#">Affiliate Program</a></li>
-                                <li><a href="#">Terms & Conditions</a></li>
                                 <li><a href="#">Contact Us</a></li>
                             </ul>
                         </div>
@@ -204,19 +206,11 @@
                 </div>
                 <div class="col-md-3">
                     <div id="contact-box">
-                        <div class="introduce-title">Newsletter</div>
-                        <div class="input-group" id="mail-box">
-                            <input type="text" placeholder="Your Email Address" />
-                            <span class="input-group-btn">
-                            <button class="btn btn-default" type="button">OK</button>
-                          </span>
-                        </div>
+                        
                         <!-- /input-group -->
                         <div class="introduce-title">Let's Socialize</div>
                         <div class="social-link">
                             <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-pinterest-p"></i></a>
-                            <a href="#"><i class="fa fa-vk"></i></a>
                             <a href="#"><i class="fa fa-twitter"></i></a>
                             <a href="#"><i class="fa fa-google-plus"></i></a>
                         </div>
@@ -225,7 +219,7 @@
             </div>
             <!-- /#introduce-box -->
             <!-- #trademark-box -->
-            <div id="trademark-box" class="row">
+            <!--<div id="trademark-box" class="row">
                 <div class="col-sm-12">
                     <ul id="trademark-list">
                         <li id="payment-methods">Accepted Payment Methods</li>
@@ -264,145 +258,13 @@
             </div>
             <!-- /#trademark-box -->
             <!-- #trademark-text-box -->
-            <div id="trademark-text-box" class="row">
-                <div class="col-sm-12">
-                    <ul id="trademark-search-list" class="trademark-list">
-                        <li class="trademark-text-tit">HOT SEARCHED KEYWORDS:</li>
-                        <li><a href="#">Xiaomii Mi3</a></li>
-                        <li><a href="#">Digiflipii Pro XT 712 Tablet</a></li>
-                        <li><a href="#">Mi 3 Phones</a></li>
-                        <li><a href="#">Iphonei 6 Plus</a></li>
-                        <li><a href="#">Women's Bags</a></li>
-                        <li><a href="#">Wallets</a></li>
-                        <li><a href="#">Women's Clutches</a></li>
-                        <li><a href="#">Backpacks Totes</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-12">
-                    <ul id="trademark-tv-list" class="trademark-list">
-                        <li class="trademark-text-tit">TVS:</li>
-                        <li><a href="#">Sonyi TV</a></li>
-                        <li><a href="#">Samsing TV</a></li>
-                        <li><a href="#">LGi TV</a></li>
-                        <li><a href="#">Onidai TV</a></li>
-                        <li><a href="#">Toshibai TV</a></li>
-                        <li><a href="#">Philipsi TV</a></li>
-                        <li><a href="#">Micromaxi TV</a></li>
-                        <li><a href="#">LED TV</a></li>
-                        <li><a href="#">LCD TV</a></li>
-                        <li><a href="#">Plasma TV</a></li>
-                        <li><a href="#">3D TV</a></li>
-                        <li><a href="#">Smart TV</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-12">
-                    <ul id="trademark-mobile-list" class="trademark-list">
-                        <li class="trademark-text-tit">MOBILES:</li>
-                        <li><a href="#">Moto E</a></li>
-                        <li><a href="#">Samsong Mobile</a></li>
-                        <li><a href="#">Micromaxo Mobile</a></li>
-                        <li><a href="#">Nokiao Mobile</a></li>
-                        <li><a href="#">HTCo Mobile</a></li>
-                        <li><a href="#">Sonyo Mobile</a></li>
-                        <li><a href="#">Appleo Mobile</a></li>
-                        <li><a href="#">LoG Mobile</a></li>
-                        <li><a href="#">Karbonno Mobile</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-12">
-                    <ul id="trademark-laptop-list" class="trademark-list">
-                        <li class="trademark-text-tit">LAPTOPS::</li>
-                        <li><a href="#">Appleo Laptop</a></li>
-                        <li><a href="#">Acero Laptop</a></li>
-                        <li><a href="#">Samsoung Laptop</a></li>
-                        <li><a href="#">Lenoovo Laptop</a></li>
-                        <li><a href="#">Sonoy Laptop</a></li>
-                        <li><a href="#">Dello Laptop</a></li>
-                        <li><a href="#">Asuos Laptop</a></li>
-                        <li><a href="#">Toshibao Laptop</a></li>
-                        <li><a href="#">LGo Laptop</a></li>
-                        <li><a href="#">HPo Laptop</a></li>
-                        <li><a href="#">Notebook</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-12">
-                    <ul id="trademark-watches-list" class="trademark-list">
-                        <li class="trademark-text-tit">WATCHES:</li>
-                        <li><a href="#">FCUKo Watches</a></li>
-                        <li><a href="#">Titano Watches</a></li>
-                        <li><a href="#">Casioo Watches</a></li>
-                        <li><a href="#">Fastracko Watches</a></li>
-                        <li><a href="#">Timexo Watches</a></li>
-                        <li><a href="#">Fossilo Watches</a></li>
-                        <li><a href="#">Dieselo Watches</a></li>
-                        <li><a href="#">Toshibao Laptop</a></li>
-                        <li><a href="#">Luxury Watches</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-12">
-                    <ul id="trademark-shoes-list" class="trademark-list">
-                        <li class="trademark-text-tit">FOOTWEAR:</li>
-                        <li><a href="#">Shoes</a></li>
-                        <li><a href="#">Casualo Shoes</a></li>
-                        <li><a href="#">Sports Shoes</a></li>
-                        <li><a href="#">Adidaso Shoes</a></li>
-                        <li><a href="#">Gaso Shoes</a></li>
-                        <li><a href="#">Pumao Shoes</a></li>
-                        <li><a href="#">Reeboko Shoes</a></li>
-                        <li><a href="#">Woodlando Shoes</a></li>
-                        <li><a href="#">Red tape Shoes</a></li>
-                        <li><a href="#">Nikeo Shoes</a></li>
-                    </ul>
-                </div>
+            
+                              
+               
             </div>
             <!-- /#trademark-text-box -->
             <div id="footer-menu-box">
-                <div class="col-sm-12">
-                    <ul class="footer-menu-list">
-                        <li><a href="#">Company Info - Partnerships</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-12">
-                    <ul class="footer-menu-list">
-                        <li><a href="#">Online Shopping</a></li>
-                        <li><a href="#">Promotions</a></li>
-                        <li><a href="#">My Orders</a></li>
-                        <li><a href="#">Help</a></li>
-                        <li><a href="#">Site Map</a></li>
-                        <li><a href="#">Customer Service</a></li>
-                        <li><a href="#">Support</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-12">
-                    <ul class="footer-menu-list">
-                        <li><a href="#">Most Populars</a></li>
-                        <li><a href="#">Best Sellers</a></li>
-                        <li><a href="#">New Arrivals</a></li>
-                        <li><a href="#">Special Products</a></li>
-                        <li><a href="#">Manufacturers</a></li>
-                        <li><a href="#">Our Stores</a></li>
-                        <li><a href="#">Shipping</a></li>
-                        <li><a href="#">Payments</a></li>
-                        <li><a href="#">Warantee</a></li>
-                        <li><a href="#">Refunds</a></li>
-                        <li><a href="#">Checkout</a></li>
-                        <li><a href="#">Discount</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-12">
-                    <ul class="footer-menu-list">
-                        <li><a href="#">Terms & Conditions</a></li>
-                        <li><a href="#">Policy</a></li>
-                        <li><a href="#">Shipping</a></li>
-                        <li><a href="#">Payments</a></li>
-                        <li><a href="#">Returns</a></li>
-                        <li><a href="#">Refunds</a></li>
-                        <li><a href="#">Warrantee</a></li>
-                        <li><a href="#">FAQ</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </div>
-                <p class="text-center">Copyrights &#169; 2015 KuteShop. All Rights Reserved. Designed by KuteThemes.com</p>
+                <p class="text-center">UDPT_2016_KuteShop. Designed by 1212006_1212029_1212367_1212437</p>
             </div>
             <!-- /#footer-menu-box -->
         </div>
@@ -417,7 +279,7 @@
     <script type="text/javascript" src="/lib/jquery.countdown/jquery.countdown.min.js"></script>
     <script type="text/javascript" src="/js/jquery.actual.min.js"></script>
     <script type="text/javascript" src="/js/theme-script.js"></script>
-	
+    
 <script type="text/javascript" src="/lib/jquery.elevatezoom.js"></script>
 <script type="text/javascript" src="/lib/jquery-ui/jquery-ui.min.js"></script>
 <script type="text/javascript" src="/lib/fancyBox/jquery.fancybox.js"></script>
