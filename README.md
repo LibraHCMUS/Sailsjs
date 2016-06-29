@@ -94,6 +94,16 @@ Back_end:
 ## Data schema (Ảnh và mô tả)
 ## Wireframe (Ảnh có sơ đồ luồng xử lý qua các màn hình)
 ![GitHub Logo](trangchu.png)
+![GitHub Logo](man.png)
+![GitHub Logo](nu.png)
+![GitHub Logo](kid.png)
+![GitHub Logo](trending.png)
+![GitHub Logo](details.png)
+![GitHub Logo](order.png)
+![GitHub Logo](dangnhap.png)
+![GitHub Logo](sanpham.png)
+![GitHub Logo](user.png)
+
 Format: ![Alt Text](url)
 ## Demo
 ![Video Walkthrough](demo1.gif)
