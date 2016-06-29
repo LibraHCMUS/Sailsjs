@@ -67,70 +67,15 @@ Danh sách sinh viên: 1212006 Nguyễn Đức Anh - 1212437 Phan Ngọc Triều
 URL: 
 
 ## Các chuẩn đầu ra đã đạt được của từng thành viên:
---------1212006--------
-* [G1.2] Hoạt động nhóm: Sử dụng Git theo Feature Branch Workflow, phân công tổ chức công việc cho các thành viên.
-* [G3.1] Công nghệ: lập trình nodejs, javascript, sails, web server
-* [G5.1] Thiết kế: template back end front end, controller , model, view cho nhóm code
-* [G5.2] Lập trình front-end, back end
-* [G5.3&G5.5] Lập trình và kiến trúc web: mvc, mongodb
-* [G8.3] Sử dụng framework: sails, angularjs.
-*Chức năng thực hiện:
-	- Thêm xóa sửa user. (hoàn thành)
-	- Thêm xóa sửa sản phẩm. (hoàn thành)
-	- Hiển thị sản phẩm. (hoàn thành)
-
---------1212029--------
-* [G1.2] Hoạt động nhóm (9): Sử dụng Git theo Feature Branch Workflow
-* [G3.1] Công nghệ: Giải thích được lựa chọn xử lý tại client & server
-* [G5.1] Thiết kế (9): 
-	- Thiết kế hoàn chỉnh chạy trên nhiều trình duyệt
-	- Icon, màu sắc
-* [G5.2] Lập trình front-end (7): 
-	- Lập trình JS với animation
-	- Sử dụng MVC và module
-	- Sử dụng HTML 5 cơ bản: localstorage, session storage,...
-* [G5.3&G5.5] Lập trình và kiến trúc web (5): Có làm với MVC
-* [G8.3] Sử dụng framework (9): 
-	- Front-end Framework: Angular JS 1, Angular JS 2, Ember, Backbone, React,...
-
---------1212367--------
-* [G1.2] Hoạt động nhóm (9): Sử dụng Git theo Feature Branch Workflow
-* [G3.1] Công nghệ: Giải thích được lựa chọn xử lý tại client & server
-* [G5.1] Thiết kế (9): 
-	- Thiết kế hoàn chỉnh chạy trên nhiều trình duyệt
-	- Icon, màu sắc
-* [G5.2] Lập trình front-end (7): 
-	- Lập trình JS với animation
-	- Sử dụng MVC và module
-	- Sử dụng HTML 5 cơ bản: localstorage, session storage,...
-* [G5.3&G5.5] Lập trình và kiến trúc web (5): Có làm với MVC
-* [G8.3] Sử dụng framework (9): 
-	- Front-end Framework: Angular JS 1, Angular JS 2, Ember, Backbone, React,...
-
---------1212437--------
-* [G1.2] Hoạt động nhóm:
-* [G3.1] Công nghệ:
-* [G5.1] Thiết kế:
-* [G5.2] Lập trình front-end
-* [G5.3&G5.5] Lập trình và kiến trúc web:
-* [G5.4] AJAX
-* [G6.1&G6.2] Web API
-* [G7.1] Bảo mật
-* [G8.1] API bên ngoài
-* [G8.3] Sử dụng framework
 
 1212006 | 1212029 | 1212367
 ------------ | ------------- | -------------
-[G1.2] Hoạt động nhóm: Sử dụng Git theo Feature Branch Workflow, phân công tổ chức công việc cho các thành viên. | Content from cell 2 | Content from cell 2
-[G3.1] Công nghệ: lập trình nodejs, javascript, sails, web server | Content in the second column | Content from cell 2
-[G5.1] Thiết kế: template back end front end, controller , model, view cho nhóm code | Content in the second column | Content from cell 2
-[G5.2] Lập trình front-end, back end | Content in the second column | Content from cell 2
-[G5.3&G5.5] Lập trình và kiến trúc web: mvc, mongodb | Content in the second column | Content from cell 2
-[G8.3] Sử dụng framework: sails, angularjs. | Content in the second column | Content from cell 2
-Chức năng thực hiện: | Content in the second column | Content from cell 2
-- Thêm xóa sửa user. (hoàn thành) | Content in the second column | Content from cell 2
-- Thêm xóa sửa sản phẩm. (hoàn thành) | Content in the second column | Content from cell 2
-- Hiển thị sản phẩm. (hoàn thành) | Content in the second column | Content from cell 2
+[G1.2] Hoạt động nhóm: Sử dụng Git theo Feature Branch Workflow, phân công tổ chức công việc cho các thành viên | [[G1.2] Hoạt động nhóm (9): Sử dụng Git theo Feature Branch Workflow | [G1.2] Hoạt động nhóm (9): Sử dụng Git theo Feature Branch Workflow
+[G3.1] Công nghệ: lập trình nodejs, javascript, sails, web server | [G3.1] Công nghệ: Giải thích được lựa chọn xử lý tại client & server | [G3.1] Công nghệ: Giải thích được lựa chọn xử lý tại client & server
+[G5.1] Thiết kế: template back end front end, controller , model, view cho nhóm code | [G5.1] Thiết kế hoàn chỉnh chạy trên nhiều trình duyệt; Icon, màu sắc | [G5.1] Thiết kế hoàn chỉnh chạy trên nhiều trình duyệt; Icon, màu sắc
+[G5.2] Lập trình front-end, back end | [G5.2] Lập trình front-end: Lập trình JS với animation; Sử dụng MVC và module; Sử dụng HTML 5 cơ bản: localstorage, session storage,... | [G5.2] Lập trình front-end: Lập trình JS với animation; Sử dụng MVC và module; Sử dụng HTML 5 cơ bản: localstorage, session storage,...
+[G5.3&G5.5] Lập trình và kiến trúc web: mvc, mongodb | [G5.3&G5.5] Lập trình và kiến trúc web: Có làm với MVC | [G5.3&G5.5] Lập trình và kiến trúc web: Có làm với MVC
+[G8.3] Sử dụng framework: sails, angularjs | [G8.3] Sử dụng framework: sails, angularjs | [G8.3] Sử dụng framework: sails, angularjs
 
 ## Danh sách chức năng đã thực hiện:
 Front_end:
@@ -149,5 +94,7 @@ Back_end:
 ## Data schema (Ảnh và mô tả)
 ## Wireframe (Ảnh có sơ đồ luồng xử lý qua các màn hình)
 ## Demo
+## Chú ý: Cần cài đặt bower_components vào thư mục assest trước khi chạy project
+
 
 
