@@ -94,6 +94,7 @@ Back_end:
 ## Data schema (Ảnh và mô tả)
 ## Wireframe (Ảnh có sơ đồ luồng xử lý qua các màn hình)
 ## Demo
+![Video Walkthrough](demo1.gif)
 ## Chú ý: Cần cài đặt bower_components vào thư mục assest trước khi chạy project
 
 
