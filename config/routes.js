@@ -32,7 +32,7 @@ module.exports.routes = {
   *                                                                          *
   ***************************************************************************/
 
-  '/': {
+  '/homepage':{
     view: 'homepage'
   },
   
@@ -40,10 +40,7 @@ module.exports.routes = {
     view: 'login'
   },
   
-  '/category':{
-    view: 'category'
-  },
-  
+
   '/order':{
     view: 'order'
   },
@@ -51,6 +48,25 @@ module.exports.routes = {
   '/detail2':{
     view: 'detail2'
   },
+
+  '/men':{
+    view: 'men'
+  },
+
+  '/woman':{
+    view: 'woman'
+  },
+
+  '/kid':{
+    view: 'kid'
+  },
+
+  '/trending':{
+    view: 'trending'
+  },
+
+
+
 
   /*'GET /signup':{view: 'signup'},
 
