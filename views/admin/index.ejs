@@ -1,0 +1,33 @@
+<div id="page-wrapper">
+	<h3>products</h3>
+	<table class='table'>
+		<tr>
+			<th>ID</th>
+			<th>Name</th>
+			<th>price</th>
+			<th>image</th>
+			<th></th>
+			<th></th>
+			<th></th>
+		</tr>
+
+		<% _.each(product, function(product) { %>
+		<tr data-id="<%= product.id %>" data-model="product">
+			<td> <%= product.id %> </td>
+			<td> <%= product.name %> </td>
+			<td> <%= product.price %> </td>
+			<td> <%= product.image %> </td>
+			<td><a href="/admin/show_p/<%= product.id %>" class="btn btn-sm btn-primary">Show</a></td>
+			<td><a href="/admin/edit_p/<%= product.id %>" class="btn btn-sm btn-warning">Edit</a></td>
+
+			<td><form action="/admin/destroy_p/<%= product.id %>" method="POST">
+				<input type="hidden" name="_method" value="delete"></input>
+				<input type="submit" class="btn btn-sm btn-danger" value="Delete"></input>
+				<input type="hidden" name="_csrf" value="<%= _csrf %>"></input>
+			</form></td>
+			
+		</tr>
+		<% } ) %>
+	</table>
+	<a href="/admin/new_p" class="btn btn-sm btn-warning">Create</a>
+</div>

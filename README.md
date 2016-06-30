@@ -68,16 +68,16 @@ URL:
 
 ## Các chuẩn đầu ra đã đạt được của từng thành viên:
 --------1212006--------
-* [G1.2] Hoạt động nhóm:
-* [G3.1] Công nghệ:
-* [G5.1] Thiết kế:
-* [G5.2] Lập trình front-end
-* [G5.3&G5.5] Lập trình và kiến trúc web:
-* [G5.4] AJAX
-* [G6.1&G6.2] Web API
-* [G7.1] Bảo mật
-* [G8.1] API bên ngoài
-* [G8.3] Sử dụng framework
+* [G1.2] Hoạt động nhóm: Sử dụng Git theo Feature Branch Workflow, phân công tổ chức công việc cho các thành viên.
+* [G3.1] Công nghệ: lập trình nodejs, javascript, sails, web server
+* [G5.1] Thiết kế: template back end front end, controller , model, view cho nhóm code
+* [G5.2] Lập trình front-end, back end
+* [G5.3&G5.5] Lập trình và kiến trúc web: mvc, mongodb
+* [G8.3] Sử dụng framework: sails, angularjs.
+*Chức năng thực hiện:
+	- Thêm xóa sửa user. (hoàn thành)
+	- Thêm xóa sửa sản phẩm. (hoàn thành)
+	- Hiển thị sản phẩm. (hoàn thành)
 
 --------1212029--------
 * [G1.2] Hoạt động nhóm (9): Sử dụng Git theo Feature Branch Workflow
@@ -124,14 +124,14 @@ Front_end:
 * [x] Đăng ký tài khoản bằng email, password và tên.
 * [x] Đăng nhập bằng email và password.
 * [x] Hiển thị sản phẩm.
-* [x] Tìm kiếm sảm phẩm.
-* [x] Đặt hàng.
+* [] Tìm kiếm sảm phẩm.
+* [] Đặt hàng.
 
 Back_end:
 * [x] Thêm xóa sửa user.
 * [x] Thêm xóa sửa sản phẩm.
-* [x] Tìm kiếm sản phẩm, user.
-* [x] Thống kê sản phẩm bán chạy.
+* [] Tìm kiếm sản phẩm, user.
+* [] Thống kê sản phẩm bán chạy.
 
 ## Data schema (Ảnh và mô tả)
 ## Wireframe (Ảnh có sơ đồ luồng xử lý qua các màn hình)

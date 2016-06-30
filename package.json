@@ -35,5 +35,6 @@
     "url": "git://github.com/anonymous node/sails user/projectsails.git"
   },
   "author": "anonymous node/sails user",
-  "license": ""
+  "license": "ISC",
+  "devDependencies": {}
 }
