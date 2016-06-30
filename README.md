@@ -119,6 +119,19 @@ URL:
 * [G8.1] API bên ngoài
 * [G8.3] Sử dụng framework
 
+1212006 | 1212029 | 1212367
+------------ | -------------
+[G1.2] Hoạt động nhóm: Sử dụng Git theo Feature Branch Workflow, phân công tổ chức công việc cho các thành viên. | Content from cell 2 | Content from cell 2
+[G3.1] Công nghệ: lập trình nodejs, javascript, sails, web server | Content in the second column | Content from cell 2
+[G5.1] Thiết kế: template back end front end, controller , model, view cho nhóm code | Content in the second column | Content from cell 2
+[G5.2] Lập trình front-end, back end | Content in the second column | Content from cell 2
+[G5.3&G5.5] Lập trình và kiến trúc web: mvc, mongodb | Content in the second column | Content from cell 2
+[G8.3] Sử dụng framework: sails, angularjs. | Content in the second column | Content from cell 2
+Chức năng thực hiện: | Content in the second column | Content from cell 2
+- Thêm xóa sửa user. (hoàn thành) | Content in the second column | Content from cell 2
+- Thêm xóa sửa sản phẩm. (hoàn thành) | Content in the second column | Content from cell 2
+- Hiển thị sản phẩm. (hoàn thành) | Content in the second column | Content from cell 2
+
 ## Danh sách chức năng đã thực hiện:
 Front_end:
 * [x] Đăng ký tài khoản bằng email, password và tên.
