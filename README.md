@@ -120,7 +120,7 @@ URL:
 * [G8.3] Sử dụng framework
 
 1212006 | 1212029 | 1212367
------------- | -------------
+------------ | ------------- | -------------
 [G1.2] Hoạt động nhóm: Sử dụng Git theo Feature Branch Workflow, phân công tổ chức công việc cho các thành viên. | Content from cell 2 | Content from cell 2
 [G3.1] Công nghệ: lập trình nodejs, javascript, sails, web server | Content in the second column | Content from cell 2
 [G5.1] Thiết kế: template back end front end, controller , model, view cho nhóm code | Content in the second column | Content from cell 2
